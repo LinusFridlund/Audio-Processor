@@ -4,8 +4,7 @@ A Raspberry Pi based DSP audio processor for a home stereo system
 
 ## Overview
 
-
-## System Architecture
+   ![System architecture](docs/AudioProcessorDiagram.drawio.svg)
 
 
 ## Hardware
