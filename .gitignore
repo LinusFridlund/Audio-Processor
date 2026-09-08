@@ -1,0 +1,35 @@
+# KiCad backup and autosave files
+*.bak
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+*.lck
+
+# KiCad project-local settings (UI state like open sheets/tabs — safe to
+# ignore since it's per-user, not part of the actual design; remove this
+# line if you'd rather track it)
+*.kicad_prl
+
+# KiCad footprint/symbol library caches (regenerated automatically, no
+# need to version them)
+fp-info-cache
+*-cache.lib
+*.cache.lib
+
+# Fabrication outputs — uncomment these if you'd rather regenerate
+# gerbers/drill files/BOMs on demand than commit them to the repo
+# *.gbr
+# *.gbrjob
+# *.drl
+# *.pos
+# *.csv
+# /gerbers/
+# /fab/
+# /plot/
+
+# OS and editor cruft
+.DS_Store
+Thumbs.db
+*.swp
