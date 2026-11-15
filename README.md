@@ -30,7 +30,7 @@ Receives digital audio from two S/PDIF and tvo coaxial inputs and sends it over 
 The power supply converts 230V AC from the wall into voltages used by the rest of the system. These include +5V for the Raspberry Pi, and +-15V for the analog boards.
 
 ## Software
-
+The software has two main functions, to run a custom GUI made using Kivy in Python, and running the DSP backend. 
 
 ## Repository Structure
 ```
